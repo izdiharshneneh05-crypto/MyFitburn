@@ -21,7 +21,6 @@ jobs:
           java-version: '17'
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.5'
           channel: stable
       - name: Add Android platform files
         run: |
